@@ -67,6 +67,9 @@ GENERAL STYLES
 		color:#fff;
 		font-weight:300;
 	}
+	.mobile {
+		display:none;
+	}
 
 /***********************************
 CCOLORS
@@ -133,14 +136,65 @@ FOOTER
 footer {
 	height:45px;
 }
-.footer-nav-container {
-
-}
-.footer-navu-ul {
-
-}
-.footer-nav-li {
-
-}
 .footer-nav-a {line-height: 45px;width: 70px;}
 
+/***********************************
+MEDIA QUERIES
+************************************
+************************************
+************************************
+************************************/
+
+@media only all and (max-width:450px) {
+	
+	.section-wrap {
+		padding: 0 3.7267%;
+	}
+	.margin-right {
+		margin-right:3.7267%;
+	}
+	.margin-bottom {
+		margin-bottom:3.7267%;
+	}
+	/***********************************
+	MOBILE MAIN
+	************************************/
+	.desktop {
+		display:none;
+	}
+	.mobile {
+		display:block;
+	}
+	
+	/*row1******************************/
+	.mobile-img-r1c1 {
+		width:100%;
+	}
+
+	/*row2******************************/
+	.mobile-block-r2c1 {
+		width:47.8261%;
+		padding-bottom:48.0331%;
+		background: #ffaa00;
+	}
+	.mobile-img-r2c2 {
+		width:48.2402%;
+	}
+	/*row3******************************/
+	.mobile-img-r3c1 {width: 100%;}
+
+	/*row4******************************/
+	.mobile-block-r4c1 {
+		width: 100%;
+		padding-bottom: 33.1263%;
+		background: #ffda33;
+	}
+
+	/*row5******************************/
+	.mobile-img-r5c1 {width: 100%;}
+
+	/*row6******************************/
+	.mobile-block-r6c1 {width: 47.8261%;padding-bottom: 48.2402%;background: #ff5700;}
+	.mobile-img-r6c2 {
+		width: 48.2402%;
+	}
