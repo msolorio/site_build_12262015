@@ -29,7 +29,7 @@ GENERAL STYLES
 	    list-style-type: none;
 	}
 	.section-wrap {
-	    max-width: 1073px;
+	    max-width: 1019px;
 	    margin: 0 auto;
 	    padding: 0 1.8634%;
 	}
@@ -54,10 +54,10 @@ GENERAL STYLES
 	}
 
 	.margin-bottom {
-		/*margin-bottom:1.8634%;*/
+		margin-bottom:1.8634%;
 	}
 	.margin-right {
-		/*margin-right:1.8634%;*/
+		margin-right:1.8634%;
 	}
 	.nav-a {
 		display:block;
@@ -107,13 +107,26 @@ MAIN
 ************************************/
 
 /*row1******************************/
+.desktop-img-r1c1 {
+	width:100%;
+}
 
 /*row2******************************/
+.desktop-img-r2c1 {
+	width:65.4244%;
+}
+.desktop-block-r2c2 {width: 32.7122%;padding-bottom: 43.4783%;background: #ffaa00;}
 
 /*row3******************************/
+.desktop-block-r3c1 {width: 35.1967%;padding-bottom: 41.4079%;background: #ffda33;}
+.desktop-img-r3c2 {width: 62.94%;}
 
 /*row4******************************/
-
+.desktop-img-r4c1 {width: 32.0911%;}
+.desktop-block-r4c2 {width: 32.0911%;padding-bottom: 37.2671%;background: #ff5700;}
+.desktop-img-r4c3 {
+	width: 32.0911%;
+}
 
 /***********************************
 FOOTER
