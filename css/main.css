@@ -29,7 +29,7 @@ GENERAL STYLES
 	    list-style-type: none;
 	}
 	.section-wrap {
-	    max-width: 1019px;
+	    max-width: 1018px;
 	    margin: 0 auto;
 	    padding: 0 1.8634%;
 	}
@@ -64,6 +64,8 @@ GENERAL STYLES
 		text-decoration:none;
 		text-align:center;
 		text-transform:capitalize;
+		color:#fff;
+		font-weight:300;
 	}
 
 /***********************************
@@ -71,9 +73,6 @@ CCOLORS
 ************************************/	
 	.bg-grey {
 		background: #333;
-	}
-	.text-white {
-		color:#fff;
 	}
 
 /***********************************
@@ -131,5 +130,17 @@ MAIN
 /***********************************
 FOOTER
 ************************************/
+footer {
+	height:45px;
+}
+.footer-nav-container {
 
+}
+.footer-navu-ul {
+
+}
+.footer-nav-li {
+
+}
+.footer-nav-a {line-height: 45px;width: 70px;}
 
