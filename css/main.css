@@ -88,12 +88,8 @@ header {
 /***********************************
 HEADER NAVIGATION
 ************************************/
-.header-nav-container {margin-top: 14px;}
-.header-nav-ul {
-
-}
-.header-nav-li {
-
+.header-nav-container {
+	margin-top: 14px;
 }
 .header-nav-a {
 	width: 79px;
@@ -117,15 +113,31 @@ MAIN
 .desktop-img-r2c1 {
 	width:65.4244%;
 }
-.desktop-block-r2c2 {width: 32.7122%;padding-bottom: 43.4783%;background: #ffaa00;}
+.desktop-block-r2c2 {
+	width: 32.7122%;
+	padding-bottom: 43.4783%;
+	background: #ffaa00;
+}
 
 /*row3******************************/
-.desktop-block-r3c1 {width: 35.1967%;padding-bottom: 41.4079%;background: #ffda33;}
-.desktop-img-r3c2 {width: 62.94%;}
+.desktop-block-r3c1 {
+	width: 35.1967%;
+	padding-bottom: 41.4079%;
+	background: #ffda33;
+}
+.desktop-img-r3c2 {
+	width: 62.94%;
+}
 
 /*row4******************************/
-.desktop-img-r4c1 {width: 32.0911%;}
-.desktop-block-r4c2 {width: 32.0911%;padding-bottom: 37.2671%;background: #ff5700;}
+.desktop-img-r4c1 {
+	width: 32.0911%;
+}
+.desktop-block-r4c2 {
+	width: 32.0911%;
+	padding-bottom: 37.2671%;
+	background: #ff5700;
+}
 .desktop-img-r4c3 {
 	width: 32.0911%;
 }
@@ -136,7 +148,10 @@ FOOTER
 footer {
 	height:45px;
 }
-.footer-nav-a {line-height: 45px;width: 70px;}
+.footer-nav-a {
+	line-height: 45px;
+	width: 70px;
+}
 
 /***********************************
 MEDIA QUERIES
@@ -185,7 +200,9 @@ MEDIA QUERIES
 		width:48.2402%;
 	}
 	/*row3******************************/
-	.mobile-img-r3c1 {width: 100%;}
+	.mobile-img-r3c1 {
+		width: 100%;
+	}
 
 	/*row4******************************/
 	.mobile-block-r4c1 {
@@ -195,10 +212,16 @@ MEDIA QUERIES
 	}
 
 	/*row5******************************/
-	.mobile-img-r5c1 {width: 100%;}
+	.mobile-img-r5c1 {
+		width: 100%;
+	}
 
 	/*row6******************************/
-	.mobile-block-r6c1 {width: 47.8261%;padding-bottom: 48.2402%;background: #ff5700;}
+	.mobile-block-r6c1 {
+		width: 47.8261%;
+		padding-bottom: 48.2402%;
+		background: #ff5700;
+	}
 	.mobile-img-r6c2 {
 		width: 48.2402%;
 	}
@@ -206,15 +229,28 @@ MEDIA QUERIES
 	/***********************************
 	MOBILE HEADER
 	************************************/
-	header {height: 68px;}
-	.header-nav-container {float: none;height: 10px;margin: 0 auto;width: 294px;}
-	.header-nav-ul {
+	header {
+		height: 68px;
+	}
+	.header-nav-container {
+		float: none;margin: 0 auto;
+		width: 294px;position: relative;
+		left: -6px;
+	}
+	.header-nav-a {
+		width: 73px;
+	}
+
+	/***********************************
+	MOBILE FOOTER
+	************************************/
+	footer {
 
 	}
-	.header-nav-li {
-
+	.footer-nav-container {
+		float: none;
+		width: 280px;
+		margin: 0 auto;
+		position: relative;
+		left: -8px;
 	}
-	.nav-a {
-		
-	}
-	.header-nav-a {width: 73px;}
