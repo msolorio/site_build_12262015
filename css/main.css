@@ -31,7 +31,7 @@ GENERAL STYLES
 	.section-wrap {
 	    max-width: 1018px;
 	    margin: 0 auto;
-	    padding: 0 1.8634%;
+	    padding: 0 2.7%;
 	}
 	.clear-both {
 	    clear: both;
@@ -147,6 +147,9 @@ MEDIA QUERIES
 
 @media only all and (max-width:450px) {
 	
+	/***********************************
+	MOBILE GENERAL STYLES
+	************************************/
 	.section-wrap {
 		padding: 0 3.7267%;
 	}
@@ -156,6 +159,7 @@ MEDIA QUERIES
 	.margin-bottom {
 		margin-bottom:3.7267%;
 	}
+
 	/***********************************
 	MOBILE MAIN
 	************************************/
@@ -198,3 +202,19 @@ MEDIA QUERIES
 	.mobile-img-r6c2 {
 		width: 48.2402%;
 	}
+	
+	/***********************************
+	MOBILE HEADER
+	************************************/
+	header {height: 68px;}
+	.header-nav-container {float: none;height: 10px;margin: 0 auto;width: 294px;}
+	.header-nav-ul {
+
+	}
+	.header-nav-li {
+
+	}
+	.nav-a {
+		
+	}
+	.header-nav-a {width: 73px;}
