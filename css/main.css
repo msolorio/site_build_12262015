@@ -103,6 +103,29 @@ HEADER NAVIGATION
 /***********************************
 MAIN
 ************************************/
+.rec-inner {
+	width:100%;
+	height:100%;
+}
+.rec-container {
+	position:relative;
+}
+
+.opaque {
+	position:absolute;
+	width:100%;
+	height:0;
+	background: rgba(0, 0, 0, 0.53);
+
+	-webkit-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}
+.rec-container:hover > .opaque {
+	height:100%;
+	color:#fff;
+}
+
 
 /*row1******************************/
 .desktop-img-r1c1 {
