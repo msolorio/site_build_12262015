@@ -274,9 +274,6 @@ MEDIA QUERIES
 	/***********************************
 	MOBILE FOOTER
 	************************************/
-	footer {
-
-	}
 	.footer-nav-container {
 		float: none;
 		width: 280px;
@@ -284,3 +281,4 @@ MEDIA QUERIES
 		position: relative;
 		left: -8px;
 	}
+}
