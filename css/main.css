@@ -109,15 +109,16 @@ MAIN
 }
 .rec-container {
 	position:relative;
+	overflow: hidden;
 }
 
 .opaque {
 	position:absolute;
 	width:100%;
-	height:0;
+	height: 100%;
+	top: -100%;
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.33);
-
 	-webkit-transition: all 400ms ease-in-out;
 	-moz-transition: all 400ms ease-in-out;
 	-o-transition: all 400ms ease-in-out;
@@ -125,7 +126,7 @@ MAIN
 }
 
 .rec-container:hover > .opaque {
-	height:100%;
+	top:0;
 	color:#fff;
 }
 
