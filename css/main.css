@@ -111,7 +111,6 @@ MAIN
 	position:relative;
 	overflow: hidden;
 }
-
 .opaque {
 	position:absolute;
 	width:100%;
@@ -124,12 +123,26 @@ MAIN
 	-o-transition: all 400ms ease-in-out;
 	transition: all 400ms ease-in-out;
 }
-
 .rec-container:hover > .opaque {
 	top:0;
 	color:#fff;
 }
-
+.opaque-h2 {
+	text-align: center;
+	font-size: 1.9em;
+	}
+.opaque-h2-r1c1 {
+	padding: 21.1% 0;
+}
+.opaque-h2-r2c1 {
+	padding: 28% 0;
+}
+.opaque-h2-r2c2 {
+	padding: 56% 0;
+}
+.opaque-h2-r3c1 {padding: 52% 0;}
+.opaque-h2-r3c2 {padding: 29% 0;}
+.opaque-h2-r4 {padding: 47% 0;}
 
 /*row1******************************/
 .desktop-img-r1c1 {
